@@ -3,7 +3,7 @@ class Persons
   #   @name = name
   #   @job = job
   # end
-
+def initialize(name)
   def name
     @name
   end
