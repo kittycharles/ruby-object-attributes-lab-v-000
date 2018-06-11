@@ -1,6 +1,6 @@
 class Dog
   def name=(dog_name)
-    @dog_name = name
+    @dog_name = dog_name
   end
   def name
     @dog_name
@@ -10,7 +10,7 @@ class Dog
   # end
 end
 
-fido = Dog.new
-fido.name = "Fido"
+# fido = Dog.new
+# fido.name = "Fido"
 #
 # puts fido.name
